@@ -1,0 +1,26 @@
+#gameBoard{
+    width: 248px;
+    height: 249px;
+    border:11px solid navy;  
+    margin: 20px auto 30px auto;
+}
+
+.cell-dimen{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.bg-dimen:hover{
+    border-color: green;
+    background-color: hotpink;
+}
+.bg-dimen:active{
+    border-color: white;
+}
+
+.selected-cell{
+    box-shadow: inset 2px 2px 5px hotpink, inset -2px -2px 5px hotpink;
+}
